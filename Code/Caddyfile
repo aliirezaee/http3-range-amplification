@@ -1,0 +1,5 @@
+localhost:4436 {
+    tls internal
+    root * Code
+    file_server
+}

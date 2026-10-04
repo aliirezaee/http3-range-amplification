@@ -1,0 +1,21 @@
+# TLS material — never commit private keys or certs
+*.pem
+*.key
+*.crt
+
+# Generated test artifacts
+Code/bigfile.bin
+Code/server.pid
+
+# Generated plots (regenerate with plot_all.py; raw CSVs are tracked)
+results/*.png
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# macOS
+.DS_Store

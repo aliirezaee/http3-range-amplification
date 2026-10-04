@@ -1,0 +1,87 @@
+test,metric,group_a,group_b,n_a,n_b,mean_a,mean_b,t_stat,u_stat,h_stat,f_stat,p_value,significant_p05
+t-test (Welch),runs/wall_time_s,1,5,10,10,0.2012,0.1481,1.2365,,,,0.24736,NO
+t-test (Welch),runs/wall_time_s,1,10,10,10,0.2012,0.1509,1.1728,,,,0.270897,NO
+t-test (Welch),runs/wall_time_s,1,20,10,10,0.2012,0.1596,0.9685,,,,0.357751,NO
+t-test (Welch),runs/wall_time_s,1,50,10,10,0.2012,0.2399,-0.8981,,,,0.39216,NO
+t-test (Welch),runs/wall_time_s,1,100,10,10,0.2012,0.4497,-5.654,,,,0.00022,YES
+Mann-Whitney U,runs/wall_time_s,1,5,10,10,0.2012,0.1481,,76.0,,,0.053903,NO
+Mann-Whitney U,runs/wall_time_s,1,10,10,10,0.2012,0.1509,,66.0,,,0.241322,NO
+Mann-Whitney U,runs/wall_time_s,1,20,10,10,0.2012,0.1596,,54.0,,,0.791337,NO
+Mann-Whitney U,runs/wall_time_s,1,50,10,10,0.2012,0.2399,,10.0,,,0.002827,YES
+Mann-Whitney U,runs/wall_time_s,1,100,10,10,0.2012,0.4497,,10.0,,,0.002827,YES
+Kruskal-Wallis,runs/wall_time_s,all,all,60,60,0,0,,,41.539,,0.0,YES
+One-way ANOVA,runs/wall_time_s,all,all,60,60,0,0,,,,40.8513,0.0,YES
+t-test (Welch),runs/server_cpu_avg,1,5,10,10,4.837,8.49,-6.6736,,,,4e-06,YES
+t-test (Welch),runs/server_cpu_avg,1,10,10,10,4.837,12.55,-15.5326,,,,0.0,YES
+t-test (Welch),runs/server_cpu_avg,1,20,10,10,4.837,18.95,-16.7501,,,,0.0,YES
+t-test (Welch),runs/server_cpu_avg,1,50,10,10,4.837,28.721,-39.2337,,,,0.0,YES
+t-test (Welch),runs/server_cpu_avg,1,100,10,10,4.837,41.406,-72.2394,,,,0.0,YES
+Mann-Whitney U,runs/server_cpu_avg,1,5,10,10,4.837,8.49,,2.0,,,0.000328,YES
+Mann-Whitney U,runs/server_cpu_avg,1,10,10,10,4.837,12.55,,0.0,,,0.000182,YES
+Mann-Whitney U,runs/server_cpu_avg,1,20,10,10,4.837,18.95,,0.0,,,0.000183,YES
+Mann-Whitney U,runs/server_cpu_avg,1,50,10,10,4.837,28.721,,0.0,,,0.000183,YES
+Mann-Whitney U,runs/server_cpu_avg,1,100,10,10,4.837,41.406,,0.0,,,0.000183,YES
+Kruskal-Wallis,runs/server_cpu_avg,all,all,60,60,0,0,,,57.2517,,0.0,YES
+One-way ANOVA,runs/server_cpu_avg,all,all,60,60,0,0,,,,1002.5135,0.0,YES
+t-test (Welch),runs/throughput_rps,1,5,10,10,5.8848,33.8343,-38.5188,,,,0.0,YES
+t-test (Welch),runs/throughput_rps,1,10,10,10,5.8848,66.3508,-65.2342,,,,0.0,YES
+t-test (Welch),runs/throughput_rps,1,20,10,10,5.8848,125.9591,-38.5637,,,,0.0,YES
+t-test (Welch),runs/throughput_rps,1,50,10,10,5.8848,208.8994,-58.6331,,,,0.0,YES
+t-test (Welch),runs/throughput_rps,1,100,10,10,5.8848,223.2901,-45.91,,,,0.0,YES
+Mann-Whitney U,runs/throughput_rps,1,5,10,10,5.8848,33.8343,,0.0,,,0.000183,YES
+Mann-Whitney U,runs/throughput_rps,1,10,10,10,5.8848,66.3508,,0.0,,,0.000183,YES
+Mann-Whitney U,runs/throughput_rps,1,20,10,10,5.8848,125.9591,,0.0,,,0.000183,YES
+Mann-Whitney U,runs/throughput_rps,1,50,10,10,5.8848,208.8994,,0.0,,,0.000183,YES
+Mann-Whitney U,runs/throughput_rps,1,100,10,10,5.8848,223.2901,,0.0,,,0.000183,YES
+Kruskal-Wallis,runs/throughput_rps,all,all,60,60,0,0,,,56.2157,,0.0,YES
+One-way ANOVA,runs/throughput_rps,all,all,60,60,0,0,,,,1116.0952,0.0,YES
+t-test (Welch),runs/server_mem_mb_peak,1,5,10,10,22.276,24.61,-5.5533,,,,0.000322,YES
+t-test (Welch),runs/server_mem_mb_peak,1,10,10,10,22.276,25.254,-7.0533,,,,4.7e-05,YES
+t-test (Welch),runs/server_mem_mb_peak,1,20,10,10,22.276,26.786,-4.4914,,,,0.000654,YES
+t-test (Welch),runs/server_mem_mb_peak,1,50,10,10,22.276,35.691,-31.6665,,,,0.0,YES
+t-test (Welch),runs/server_mem_mb_peak,1,100,10,10,22.276,37.374,-32.4082,,,,0.0,YES
+Mann-Whitney U,runs/server_mem_mb_peak,1,5,10,10,22.276,24.61,,0.0,,,0.000182,YES
+Mann-Whitney U,runs/server_mem_mb_peak,1,10,10,10,22.276,25.254,,0.0,,,0.000183,YES
+Mann-Whitney U,runs/server_mem_mb_peak,1,20,10,10,22.276,26.786,,0.0,,,0.000183,YES
+Mann-Whitney U,runs/server_mem_mb_peak,1,50,10,10,22.276,35.691,,0.0,,,0.000174,YES
+Mann-Whitney U,runs/server_mem_mb_peak,1,100,10,10,22.276,37.374,,0.0,,,0.000182,YES
+Kruskal-Wallis,runs/server_mem_mb_peak,all,all,60,60,0,0,,,57.3946,,0.0,YES
+One-way ANOVA,runs/server_mem_mb_peak,all,all,60,60,0,0,,,,223.1581,0.0,YES
+t-test (Welch),exp4/benign_latency_s,0,10,10,10,0.0022,0.0055,-14.8169,,,,0.0,YES
+t-test (Welch),exp4/benign_latency_s,0,20,10,10,0.0022,0.0073,-8.3705,,,,8e-06,YES
+t-test (Welch),exp4/benign_latency_s,0,50,10,10,0.0022,0.0055,-11.6904,,,,0.0,YES
+t-test (Welch),exp4/benign_latency_s,0,100,10,10,0.0022,0.0053,-9.1729,,,,1e-06,YES
+Mann-Whitney U,exp4/benign_latency_s,0,10,10,10,0.0022,0.0055,,0.0,,,0.000183,YES
+Mann-Whitney U,exp4/benign_latency_s,0,20,10,10,0.0022,0.0073,,0.0,,,0.000183,YES
+Mann-Whitney U,exp4/benign_latency_s,0,50,10,10,0.0022,0.0055,,0.0,,,0.000183,YES
+Mann-Whitney U,exp4/benign_latency_s,0,100,10,10,0.0022,0.0053,,0.0,,,0.000183,YES
+Kruskal-Wallis,exp4/benign_latency_s,all,all,50,50,0,0,,,32.8715,,1e-06,YES
+Kruskal-Wallis,exp5/amp_factor_wire,all,all,60,60,0,0,,,57.5594,,0.0,YES
+One-way ANOVA,exp5/amp_factor_wire,all,all,60,60,0,0,,,,75685.4559,0.0,YES
+Kruskal-Wallis,exp5/cost_attacker,all,all,60,60,0,0,,,57.7283,,0.0,YES
+One-way ANOVA,exp5/cost_attacker,all,all,60,60,0,0,,,,375595.6029,0.0,YES
+Kruskal-Wallis,exp5/amp_convergence_gap,all,all,60,60,0,0,,,57.5594,,0.0,YES
+One-way ANOVA,exp5/amp_convergence_gap,all,all,60,60,0,0,,,,75682.0394,0.0,YES
+Mann-Whitney U,exp8/fail_rate_pct,100,200,5,5,0.0,0.0,,12.5,,,1.0,NO
+Mann-Whitney U,exp8/fail_rate_pct,100,500,5,5,0.0,0.0,,12.5,,,1.0,NO
+Mann-Whitney U,exp8/fail_rate_pct,100,1000,5,5,0.0,0.0,,12.5,,,1.0,NO
+Kruskal-Wallis,exp8/wall_time_s,all,all,20,20,0,0,,,17.8571,,0.000471,YES
+Mann-Whitney U,exp8/wall_time_s,100,200,5,5,0.4579,1.4988,,0.0,,,0.007937,YES
+Mann-Whitney U,exp8/wall_time_s,100,500,5,5,0.4579,6.013,,0.0,,,0.007937,YES
+Mann-Whitney U,exp8/wall_time_s,100,1000,5,5,0.4579,20.6202,,0.0,,,0.007937,YES
+Kruskal-Wallis,exp8/server_cpu_avg,all,all,20,20,0,0,,,17.8571,,0.000471,YES
+Mann-Whitney U,exp8/server_cpu_avg,100,200,5,5,41.1,43.896,,0.0,,,0.007937,YES
+Mann-Whitney U,exp8/server_cpu_avg,100,500,5,5,41.1,69.426,,0.0,,,0.007937,YES
+Mann-Whitney U,exp8/server_cpu_avg,100,1000,5,5,41.1,85.99,,0.0,,,0.007937,YES
+t-test (Welch),exp9/benign_latency_s,MAX=10,MAX=20,40,40,0.0087,0.0086,0.4318,,,,0.667052,NO
+t-test (Welch),exp9/benign_latency_s,MAX=10,MAX=50,40,40,0.0087,0.0087,0.0702,,,,0.94421,NO
+t-test (Welch),exp9/benign_latency_s,MAX=10,unlimited,40,40,0.0087,0.0058,11.0941,,,,0.0,YES
+Mann-Whitney U,exp9/benign_latency_s,MAX=10,MAX=20,40,40,0.0087,0.0086,,856.0,,,0.593303,NO
+Mann-Whitney U,exp9/benign_latency_s,MAX=10,MAX=50,40,40,0.0087,0.0087,,884.0,,,0.421695,NO
+Mann-Whitney U,exp9/benign_latency_s,MAX=10,unlimited,40,40,0.0087,0.0058,,1532.0,,,0.0,YES
+t-test (Welch),exp9/server_cpu_avg,MAX=10,MAX=20,40,40,0.0,0.0,nan,,,,nan,NO
+t-test (Welch),exp9/server_cpu_avg,MAX=10,MAX=50,40,40,0.0,0.0,nan,,,,nan,NO
+t-test (Welch),exp9/server_cpu_avg,MAX=10,unlimited,40,40,0.0,25.6503,-14.306,,,,0.0,YES
+Mann-Whitney U,exp9/server_cpu_avg,MAX=10,MAX=20,40,40,0.0,0.0,,800.0,,,1.0,NO
+Mann-Whitney U,exp9/server_cpu_avg,MAX=10,MAX=50,40,40,0.0,0.0,,800.0,,,1.0,NO
+Mann-Whitney U,exp9/server_cpu_avg,MAX=10,unlimited,40,40,0.0,25.6503,,0.0,,,0.0,YES
